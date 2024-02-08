@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    background-image: url(./img/banner-bk.jpg);
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 680px;
+    overflow-y: auto;
+}
+.wrapper {
+    overflow-x: hidden;
+}
+.main_style{
+    padding: 0px 15px 0px 15px;
+    margin: 64px 189px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-size:72px;
+    margin: 48px 0px 30px 0px;
+    line-height: 75px;
+    color: #fff;
+}
+#para{
+    margin:24px 0px;
+    font-size:20px;
+    font-weight: 300;
+    color: #fff;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+}
+.Access a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+}
+.Access a:hover{
+    text-decoration: underline;
+}
+#para{
+    margin-top: 0px;
+}
+.bt-class{
+    position:relative;
+    top: 30px;
+    margin:44px 0px;
+    padding:12px 30px;
+    background-color: #00FFAD;
+    font-size: 16px;
+    font-weight: 600;
+    color: #192440;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #00FFAD;
+}
+.bt-class:hover{
+    color: #fff;
+    font-weight: 600;
+    transition-duration: 0.58s;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+#heading{
+    color: #292b2c;
+    text-align: center;
+    font-size: 44.8px;
+    margin: 40px 0px;
+}
+.text{
+    color: #292B2C;
+    margin: 0px 0px 16px;
+    font-size: 16px;
+    font-weight: 450;    
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex_box{
+    height: 280px;
+    width: 380px;
+    text-align: center;
+}
+.head_text{
+
+    font-size: 24px;
+    margin: 0px 0px 8px;
+    font-weight: 500;
+}
+.section{
+    margin-bottom: 70px !important;
+    padding-bottom: 15px !important;
+}
+.section_box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(205deg, #fff 50%, #00FFAD calc(50% + 295px));
+    border-radius: 50px 0 0 50px;
+}
+.img{
+    width: 480px;
+    height: 283px;
+}
+#tag{
+    color: #000;
+    margin: 0px 0px 8px;
+    font-size:45px;
+}
+#status{
+    color: #000;
+    font-size: 16px;
+    margin: 12px 0px 56px;
+}
+.div1
+{
+    width: 500px;
+    height: 282px;
+}
+.Learn a{
+    margin: 44px 0px;
+    padding: 12px 30px;
+    background-color: #192440;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.img_1{
+    padding-left: 105px;
+}
+.box{
+    gap: 75px;
+    background: linear-gradient(135deg, #fff 50%, #00FFAD calc(50% + 295px));
+    border-radius: 0 50px 50px 0;
+}
+.price-table{
+    margin:48px 65px;
+    padding:65px 15px;
+}
+#tag_margin{
+    margin: 0px 0px 16px !important;
+    color: #292B2C;
+    font-size: 45px;
+    text-align: center;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    color: #292B2C;
+    text-align: center;
+    font-weight: 500;
+}
+.color span{
+    font-size: 88px;
+    margin: 0px 0px 16px;
+    color: #192440;
+    font-weight: 700;
+}
+.table{
+    margin: 48px 0px 0px;
+    padding: 24px 15px;
+    height: 483px;
+    width: 380px;
+}
+#price{
+    font-size: 24px;
+    margin: 24px 0px;
+    text-align: center;
+}
+.table li{
+    text-align: center;
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.ach{
+    position: relative;
+    top: 38px;
+    left: 104px;
+    padding: 12px 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid #192440;
+    text-decoration: none;
+    font-weight: 500;
+}
+.ach:hover{
+    font-weight: 700;
+    background-color: #192440;
+    transition: 0.15s;
+    transform: translateY(10px);
+    color: #fff;
+}
+.PREMIUM:hover{
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+.PREMIUM{
+    background-color: #00FFAD !important;
+    border: 0px !important;
+}
+.table_1{
+    background-color: #192440;
+    color: #fff;
+    border-radius: 10px;
+}
+#spam{
+    color: #fff !important;
+}
+.company_logo{
+    padding: 54px;
+    background-color: #ECEEEF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact{
+    padding: 64px 0px;
+    width: 1269px;
+    height: 569px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_info{
+    width: 570px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contact_info li{
+    padding: 3px 0px;
+    color: #ECEEEF;
+    font-size: 16px;
+    list-style-type: none;
+}
+.tag_marg{
+    margin: 0px 16px 1px 0px;
+    color: #fff;
+    font-size: 40px;
+}
+.para_1{
+    font-size: 16px;
+    color: #ECEEEF;
+    margin:0px 0px 25px ;
+}
+.footer{
+    padding: 32px 48px;
+    background-color: #192440;
+    color: #292B2C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 850px;
+    position: sticky;
+    bottom: 0;
+}
+.copy{
+    color: #fff;
+    margin:8px 0px;
+    padding: 0px 15px;
+}
+.icons{
+    font-size: 40px;
+}
+.icons a{
+    color: #fff;
+    margin: 0px 0px 0px 8px;
+}
+.form_div1{
+    display: flex;
+    gap: 45px;
+}
+.form_div1 label{
+    color: #00FFAD;
+}
+.form_div1 input{
+    width: 256px;
+    height: 37px;
+    border-radius: 5px;
+    border: 2px solid #00FFAD;
+    background-color: transparent;
+    margin: 10px 0px;
+}
+.form_div2 textarea{
+    height: 77px;
+    width: 566px;
+    margin: 16px 0px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 2px solid #00FFAD;
+    background-color: transparent;
+}
+.form_div2 label{
+    color: #00FFAD;
+    margin: 0px 0px 8px;
+}
+.btn-btn{
+    border-radius: 50px;
+    width:545px;
+    height:46px;
+    margin: 16px 0px;
+    padding:12px 30px;
+    background-color: #00FFAD;
+    color: #192440;
+    font-size:16px;
+    font-weight: 700;
+}
